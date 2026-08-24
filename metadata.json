@@ -1,0 +1,8 @@
+{
+  "uuid": "logout-in-power-menu@codegod100.github.io",
+  "name": "Logout in Power Menu",
+  "description": "Adds a Log Out option to the Quick Settings power menu.",
+  "version": 1,
+  "shell-version": ["50", "51"],
+  "url": "https://github.com/codegod100/logout-in-power-menu"
+}
