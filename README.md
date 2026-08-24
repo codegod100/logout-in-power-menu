@@ -18,7 +18,15 @@ gnome-extensions pack
 gnome-extensions install --force logout-in-power-menu@codegod100.github.io.shell-extension.zip
 ```
 
-Log out and sign back in, then enable the extension:
+GNOME Shell must start a new session before it can discover an extension
+with a new UUID. If your desktop does not show a graphical **Log Out** option,
+request a logout from the terminal:
+
+```sh
+gnome-session-quit --logout
+```
+
+Confirm the logout, sign back in, and then enable the extension:
 
 ```sh
 gnome-extensions enable logout-in-power-menu@codegod100.github.io
